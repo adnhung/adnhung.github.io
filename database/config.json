@@ -1,12 +1,12 @@
 {
   "passphrase": "6H~._f]uDhZpAu%q",
   "github": {
-    "api": "xxxxxxxxxxxxxxxxxxxx",
-    "secret": "ccccccccccccccccccccc"
+    "master_a": "hAPyIJ+19F+Z+AxiXKY9l8R0np04LLrWuXmCqPvX6fDRY8V8+r7nw/GE63b2Ikurt0CEtNKavW6e0gtll1Y0BxXGELd1GZLr",
+    "master_b": "0gMhwa+19F+PWyrzFPGZDkAgVS2/3xxdmTk4VDfKCKc4yXg2yf4rnNwddqGRDYNmchm3xrUUu1gShIfdseufUx+pGJph6cpX"
   },
   "facebook": {
-    "api": "gggggggggggggggg",
-    "secret": "aaaaaaaaaaaaaaaaaa"
+    "public": "4526630724076934",
+    "secret": "cgEuVtu29F+e/sCNfV2NVECuT1UXHIMgEjHCzUWebD/dikmpKm1fbrpgYnqozOGWojLkHZPKIbv6QPKanQh0Rk0hOuTbDPoN"
   }
-  "administrator": ["100004048947968","100008207312861"]
+  "administrator": ["cf9d8f37a24b474ae5e8135d36439110d35ee739802bfeacf5fbc50ef6115201","1764ddf7ddfcca4d00c7700aa79cb7da23b8d2028916e6549020360bde3955b5"]
 }
