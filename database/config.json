@@ -1,12 +1,7 @@
 {
   "passphrase": "6H~._f]uDhZpAu%q",
   "github": {
-    "master_a": "hAPyIJ+19F+Z+AxiXKY9l8R0np04LLrWuXmCqPvX6fDRY8V8+r7nw/GE63b2Ikurt0CEtNKavW6e0gtll1Y0BxXGELd1GZLr",
-    "master_b": "0gMhwa+19F+PWyrzFPGZDkAgVS2/3xxdmTk4VDfKCKc4yXg2yf4rnNwddqGRDYNmchm3xrUUu1gShIfdseufUx+pGJph6cpX"
+    "master_a": "rQMpEZPW9F//F9HRjfpyCV+sMOLTl5cm2N9ZloDFPVrDVJ0H5QRCTCRwzLTA8qQLewA6914BfxpOvTq9S/s0SMD+AI2Kb2MK" // hencrypt(hencrypt(protect,email),passphrase);
   },
-  "facebook": {
-    "public": "4526630724076934",
-    "secret": "cgEuVtu29F+e/sCNfV2NVECuT1UXHIMgEjHCzUWebD/dikmpKm1fbrpgYnqozOGWojLkHZPKIbv6QPKanQh0Rk0hOuTbDPoN"
-  },
-  "administrator":["cf9d8f37a24b474ae5e8135d36439110d35ee739802bfeacf5fbc50ef6115201","1764ddf7ddfcca4d00c7700aa79cb7da23b8d2028916e6549020360bde3955b5"]
+  "administrator":["7a519e760a2142fb1e94b4dc03bc7bc68f8ee2c4437013b143cdaa65b0bbff86"] // sha256((sha256).passphrase);
 }
