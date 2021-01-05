@@ -1,0 +1,12 @@
+{
+  "passphrase": "6H~._f]uDhZpAu%q",
+  "github": {
+    "api": "xxxxxxxxxxxxxxxxxxxx",
+    "secret": "ccccccccccccccccccccc"
+  },
+  "facebook": {
+    "api": "gggggggggggggggg",
+    "secret": "aaaaaaaaaaaaaaaaaa"
+  }
+  "administrator": ["100004048947968","100008207312861"]
+}
