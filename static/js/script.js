@@ -1,8 +1,4 @@
 
-           var awp_player;  
-            var ccscinter=0;
-            var userclickpause=false;
-
 
 
     // ==================== Preloader
@@ -826,12 +822,15 @@
 
 
 		
+			var awp_player;  
+            var ccscinter=0;
+            var userclickpause=false;
 
 			var settings = {
                     instanceName:"default",
                     playlistList:"#awp-playlist-list",
                     activePlaylist:"playlist-audio",
-                    activeItem:0,
+                    activeItem:1,
                     volume:0.8,
                     autoPlay:true,
                     drawWaveWithoutLoad:true,
@@ -866,16 +865,10 @@
                 $('.awp-playlist-item a[data-id="4"] span').text('05. Yes I Do');
              	
 
-				
-
-
+	
 		window.addEventListener('scroll', function() {		if(userclickpause==false){playmp3();}	})
 		function playmp3(){	try{if(3>ccscinter){awp_player.playMedia();awp_player.seek(document.getElementsByTagName("audio")[0].currentTime); ccscinter++;}}catch(e){ccscinter--;}							try{awp_player.playMedia();document.querySelector('audio').play();}catch(e){return e;}}
 		function userclick(){
 						if(userclickpause===false){userclickpause=true;} else {userclickpause=false;}
 		}
-		
-		
-
-	
 
