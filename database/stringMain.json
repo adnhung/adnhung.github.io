@@ -1,5 +1,5 @@
 {
-  "A":[{"BACKGROUND":"static/images/slider/slide-5.jpg","MAN":"AD","GIRL":"Nhung","DESTE":"29 tháng 5, 2018"}],
+  "A":{"BACKGROUND":"static/images/slider/slide-5.jpg","MAN":"AD","GIRL":"Nhung","DESTE":"29 tháng 5, 2018"},
   "WE":"Chúng tôi..",
   "WE_IMG":{"LEFT":"static/images/couple/groom.jpg","RIGHT":"static/images/couple/groom-1.jpg"},
   "WE_STR_1":"<p>Biết nhau từ một sự sắp đặt của số phận, vào đúng ngày sinh nhật lần thứ 23 của tôi.... Thật tình cờ và thật trùng hợp nhỉ ~</p><p>Tôi hơn nàng sáu tuổi, cô ấy không xinh, nhưng đủ khiến tôi phải ngắm nhìn, không đặc biệt nhưng có sức hút, và không hề giống với bất kì ai cả, chỉ là chính cô ấy mà thôi... </p><p>Gần một nghìn ngày đêm bên nhau, chúng tôi trải qua hơn trăm lần cãi nhau, có bất đồng, có to tiếng, sau mỗi lần như thế, chúng tôi hiểu nhau nhiều hơn, chúng tôi hiểu rằng hạnh phúc chính là kết tinh của sự đổ vỡ và hàn gắn...</p>",
