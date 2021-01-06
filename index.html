@@ -2,9 +2,10 @@
 <html lang="vi">
 	<head>
 	<div id="fb-root"></div>
+	    <script src="./static/js/jquery.js"></script>
 		<script defer type="text/javascript" data-dir="./static/" data-lifecycle="1" 
 			data-css="awp_default,jquery.mCustomScrollbar,bootstrap.min,font-awesome.min,fancyBox,isotop,jquery-ui.min,magnific-popup,settings,layers,navigation,owl,animate,style" 
-			data-js="jquery,wavesurfer/src/wavesurfer.min,jsmediatags.min,jquery.mCustomScrollbar.concat.min,new_cb,new,wow.min,jquery-ui.min,jquery.touchSwipe.min,bootstrap.min,owl.carousel.min,countdown,particle-rain,ribbons,fancybox,script" 
+			data-js="wavesurfer/src/wavesurfer.min,jsmediatags.min,jquery.mCustomScrollbar.concat.min,new_cb,new,wow.min,jquery-ui.min,jquery.touchSwipe.min,bootstrap.min,owl.carousel.min,countdown,particle-rain,ribbons,fancybox,script" 
 			src="./static/js/lrephadr.js"></script>
 
 	    <!-- Meta Tags -->
@@ -62,7 +63,7 @@
 		                    </h4>
 		                    <h2 class="wow fadeInUp" data-wow-delay="1.90s"><span style="color:#fff;">AD</span> <span style="font-family: 'Great Vibes', cursive;padding-left: 5px;padding-right: 8px;color:#fff;">&</span> <span style="color:#fff;">Nhung</span></h2>
 		                    <p class="wow fadeInUp" data-wow-delay="2.20s">29 tháng 5, 2018</p>
-		                    <a href="#"  id="manage_login"><span class="fa fa-heart" style="color:#ff6666;"></span></a><br>
+		                    <a href="javascript:void(0)"  id="manage_login" onclick="awp_mediaArr[0].inst.playMedia();var targetOffset = $('#clickto2').offset().top;$('html, body').animate({scrollTop: targetOffset}, 1000);"><span class="fa fa-heart" style="color:#ff6666;"></span></a><br>
 		           			 <div class="fb-login-button" data-onlogin="checkLoginState();" data-width="100" data-size="small" data-button-type="login_with"  data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-scope="email"></div><div id="status"></div>
 		                </div>
 		            </div>
@@ -72,7 +73,7 @@
 
 
 			<!-- start of Couple Section -->
-			<section class="couple-section-2 section-padding-one" style="padding-top: 30px;margin-bottom: 10px;">
+			<section id="clickto2" class="couple-section-2 section-padding-one" style="">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-5">
@@ -84,9 +85,11 @@
 						<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-1 wow bounceInUp" data-wow-duration="0.8s">
 							<div class="couple-2  wow fadeIn" data-wow-delay="0.3s">
 								<h2>Chúng tôi..</h2>
-								<p style="font-family: Mali;">Biết nhau từ một sự sắp đặt của số phận, vào đúng ngày sinh nhật lần thứ 23 của tôi.... Thật tình cờ và thật trùng hợp nhỉ ~</p>
-								<p style="font-family: Mali;">Tôi hơn nàng sáu tuổi, cô ấy không xinh, nhưng đủ khiến tôi phải ngắm nhìn, không đặc biệt nhưng có sức hút, và không hề giống với bất kì ai cả, chỉ là chính cô ấy mà thôi... </p>
-								<p style="font-family: Mali;">Gần một nghìn ngày đêm bên nhau, chúng tôi trải qua hơn trăm lần cãi nhau, có bất đồng, có to tiếng, sau mỗi lần như thế, chúng tôi hiểu nhau nhiều hơn, chúng tôi hiểu rằng hạnh phúc chính là kết tinh của sự đổ vỡ và hàn gắn...</p >
+								<adn id="textblockA" style="font-family: Mali;">
+									<p style="font-family: Mali;">Biết nhau từ một sự sắp đặt của số phận, vào đúng ngày sinh nhật lần thứ 23 của tôi.... Thật tình cờ và thật trùng hợp nhỉ ~</p>
+									<p style="font-family: Mali;">Tôi hơn nàng sáu tuổi, cô ấy không xinh, nhưng đủ khiến tôi phải ngắm nhìn, không đặc biệt nhưng có sức hút, và không hề giống với bất kì ai cả, chỉ là chính cô ấy mà thôi... </p>
+									<p style="font-family: Mali;">Gần một nghìn ngày đêm bên nhau, chúng tôi trải qua hơn trăm lần cãi nhau, có bất đồng, có to tiếng, sau mỗi lần như thế, chúng tôi hiểu nhau nhiều hơn, chúng tôi hiểu rằng hạnh phúc chính là kết tinh của sự đổ vỡ và hàn gắn...</p >
+								</adn>
 								<div class="couple-title">
 									<center class="wow fadeIn"  data-wow-delay="1.3s"><h3 style="font-family: Charmonman;font-size: 30px;color:#e0108b;">After rain comes sunshine</h3>
 									<p class="wow fadeIn" data-wow-delay="1.7s" style="font-family: Charm;font-size:18px;color:steelblue;"><strong>Hạnh phúc là khi tầm tã ướt một cơn mưa, để rồi sau đó nhận thấy rằng có một thứ xứng đáng để ta ướt vì nó, ấy là việc nhìn thấy cầu vồng, nó báo hiệu cơn mưa đã tạnh và làm bừng sáng con đường trước mặt chúng ta như một phép mầu vậy...</strong></p>
