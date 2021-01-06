@@ -824,7 +824,7 @@
 		
 			var awp_player;  
             var ccscinter=0;
-            var userclickpause=false;
+            var userclickpause=true;
 
 			var settings = {
                     instanceName:"default",

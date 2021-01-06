@@ -1170,7 +1170,8 @@
                 Aa.width(aa.width()),
                 aa.removeClass("awp-hidden").addClass("awp-visible"),
                 Sa()),
-                h.load(u.mp3))
+                h.load(u.mp3)),
+                awp_mediaArr[0].inst.loadPlayMedia()
             }).fail(function(a, g, c) {
                 console.log(a, g, c)
             })
