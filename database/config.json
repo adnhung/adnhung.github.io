@@ -1,6 +1,3 @@
-// hencrypt(hencrypt(protect,email),passphrase);
-// sha256((sha256(email).passphrase); 
-
 {
   "passphrase": "6H~._f]uDhZpAu%q",
   "github": {
