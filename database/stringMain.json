@@ -1,5 +1,5 @@
 {
-  "AD":{"BACKGROUND":"static/images/slider/slide-5.jpg","MAN":"AD","GIRL":"Nhung","DESTE":"29 tháng 5, 2018"},
+  "A":[{"BACKGROUND":"static/images/slider/slide-5.jpg","MAN":"AD","GIRL":"Nhung","DESTE":"29 tháng 5, 2018"}],
   "WE":"Chúng tôi..",
   "WE_IMG":{"LEFT":"static/images/couple/groom.jpg","RIGHT":"static/images/couple/groom-1.jpg"},
   "WE_STR_1":"<p>Biết nhau từ một sự sắp đặt của số phận, vào đúng ngày sinh nhật lần thứ 23 của tôi.... Thật tình cờ và thật trùng hợp nhỉ ~</p><p>Tôi hơn nàng sáu tuổi, cô ấy không xinh, nhưng đủ khiến tôi phải ngắm nhìn, không đặc biệt nhưng có sức hút, và không hề giống với bất kì ai cả, chỉ là chính cô ấy mà thôi... </p><p>Gần một nghìn ngày đêm bên nhau, chúng tôi trải qua hơn trăm lần cãi nhau, có bất đồng, có to tiếng, sau mỗi lần như thế, chúng tôi hiểu nhau nhiều hơn, chúng tôi hiểu rằng hạnh phúc chính là kết tinh của sự đổ vỡ và hàn gắn...</p>",
@@ -15,5 +15,4 @@
   "BEGIN_STR":"Cuộc hẹn đầu của chúng tôi diễn ra vào ngày quốc tế thiếu nhi.	Với cô ấy, tôi là một sự thử thách.. Còn với tôi cô ấy là một sự trải nghiệm... Và chúng tôi đã gặp nhau như thế đó.",
   "TIMELINE":"Và còn những khoảnh khắc nữa..",
   "TIMELINE_IMG":[{"URL":"static/images/project/1.jpg","TITLE":"Phố Nguyễn Huệ","ALT":"Hai đứa rảnh rỗi ra đây cho đã , rồi về... Chả có tham quan cũng chẳng đi bộ."},{"URL":"static/images/project/2.jpg","TITLE":"Trà sữa Bạn AD","ALT":"Ờ thì qua quán trà sữa của bạn ad, nhưng lại đúng ngày mà nó xin nghĩ việc mới đau... Hông biết nên vui hay buồn..."},{"URL":"static/images/project/3.jpg","TITLE":"Cuộc hẹn đầu","ALT":"Hình như đâu đó ở gần một cái trường học gì đấy.... gần gần nhà của Nhung thì phải?."},{"URL":"static/images/project/4.jpg","TITLE":"Cái hôn","ALT":"Em... đánh rơi ... nụ hôn đầu.... trên mặt anh...."},{"URL":"static/images/project/5.jpg","TITLE":"Về nhà","ALT":"Cảm thấy hạnh phúc lắm chứ ... à nhầm ... hạnh fuck :D "},{"URL":"static/images/project/6.jpg","TITLE":"Chụp lén tại Aeon","ALT":"Kỳ thực thì đâu phải muốn dìm hàng AD mà dễ ... kakaka."}],
-
 }
