@@ -1154,18 +1154,8 @@
         }
         function H(a) {
             za = c.ajax({
-                url: qa + "static/media/peaks.php",
-                type: "post",
-                data: [{
-                    name: "action",
-                    value: "awp_read_peaks"
-                }, {
-                    name: "id",
-                    value: a
-                }, {
-                    name: "path",
-                    value: u.peakdir || null
-                }],
+                url: qa + u.peakdir+'.peaks',
+                type: "GET",
                 dataType: "json"
             }).done(function(a) {
                 a.length ? (h.backend.peaks = a,
