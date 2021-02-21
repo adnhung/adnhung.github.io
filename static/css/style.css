@@ -3285,7 +3285,7 @@ section {
 .feed-section div{
 z-index: 2;
 }
-.feed-section:before {
+.feed-section::before {
     opacity: 0.6;
     z-index: 1;
     background-image: url('./static/images/tab/bg_love-img.jpg');
