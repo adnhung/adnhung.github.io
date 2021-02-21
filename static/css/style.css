@@ -5071,7 +5071,7 @@ font-family: Mali !important;
 .boxline ul:last-of-type .arrow{
     position: absolute;
     top: 105%;
-    left: 22%;
+    left: -20px;
     transform: rotateX(180deg);
     cursor: pointer;
 }
