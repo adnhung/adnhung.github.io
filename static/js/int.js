@@ -190,6 +190,8 @@ document.head.appendChild(style);
 
 		}
 //_________________________________________________________________________________________
+
+document.addEventListener("DOMContentLoaded", function(event) { 
 var downArrow = document.getElementById("btn1");
 var upArrow = document.getElementById("btn2");
 
@@ -208,4 +210,5 @@ upArrow.onclick = function () {
     upArrow.style = "display:none";
     downArrow.style = "display:block";
 };
+})
 //_________________________________________________________________________________________
