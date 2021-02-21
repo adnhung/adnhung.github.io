@@ -4951,7 +4951,7 @@ font-family: Mali !important;
     display: block;
     width: 0;
     height: 100%;
-    border:1px dashed #fff;
+    border:1px dashed #dc4165bf;
     position: absolute;
     top:0;
     left:30px
@@ -4961,7 +4961,7 @@ font-family: Mali !important;
     margin: 20px 60px 60px;
     position: relative;
     padding: 10px 20px;
-    background:rgba(255, 255, 255, 0.3);
+    background:rgb(220 65 101 / 75%);
     color:#fff;
     border-radius: 10px;
     line-height: 20px;
@@ -4974,7 +4974,7 @@ font-family: Mali !important;
     display: block;
     width: 0;
     height: 100%;
-    border:1px solid #fff;
+    border:1px solid #dc4165bf;
     position: absolute;
     top:0;
     left:-30px
@@ -4986,8 +4986,8 @@ font-family: Mali !important;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background:#ff6d6d;
-    border:2px solid #fff;
+    background:#dc4165bf;
+    border:2px solid #dc4165bf;
     position: absolute;
     left:-7.5px
 }
@@ -5015,7 +5015,7 @@ font-family: Mali !important;
 .boxline .time span{
     position: absolute;
     left: -100px;
-    color:#fff;
+    color:#dc4165bf;
     font-size:80%;
     font-weight: bold;
 }
@@ -5050,7 +5050,7 @@ font-family: Mali !important;
     display: block;
     width: 0;
     height: 100%;
-    border:1px dashed #fff;
+    border:1px dashed #dc4165bf;
     position: absolute;
     top:0;
     left:30px
@@ -5061,7 +5061,7 @@ font-family: Mali !important;
     position: relative;
     padding: 10px 20px;
     background:rgb(165 0 0 / 66%);
-    color:#fff;
+    color:#dc4165bf;
     border-radius: 10px;
     line-height: 20px;
     width: 35%
@@ -5085,7 +5085,7 @@ font-family: Mali !important;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background:rgb(165 0 0 / 66%);
+    background: #dc4165bf;
     border:2px solid #ec735e;
     position: absolute;
     left:-7.5px
