@@ -4953,6 +4953,13 @@ font-family: Mali !important;
     padding: 10px 0 10px 50px;
 }
 
+@media (min-width: 400px) {
+  .boxline{
+    margin: 0 10px;
+  }
+	
+}
+
 .boxline ul{
     list-style-type: none;
     margin: 0;
