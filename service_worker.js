@@ -48,10 +48,12 @@ caches.keys().then(async function (cachesNames) {
 
 for (i = 0; i < cachesNames.length; i++) {
         if(cachesNames[i] !==curentVersion){
-            caches.delete(cachesNames[i])
+            caches.delete(cachesNames[i]);
+        }
 }
 
 });
+
 
 
 self.addEventListener('install', (event) => {
