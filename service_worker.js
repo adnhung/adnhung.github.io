@@ -41,8 +41,7 @@
   '/static/css/owl.css',
   '/static/css/animate.css',
   '/static/css/style.css',
-  '/index.html',
-  '/'
+  '/index.html'
 ];
 var curentVersion='adnhung_v1';
 caches.keys().then(async function (cachesNames) {
