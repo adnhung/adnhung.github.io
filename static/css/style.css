@@ -5015,8 +5015,8 @@ font-family: Mali !important;
     left:-5px
 }
 
-.boxline ul li > span:before{top:-10px}
-.boxline ul li > span:after{top:95%}
+.boxline ul li > span:before{top:-15px}
+.boxline ul li > span:after{top:105%}
 
 .boxline .title{
     text-transform: uppercase;
@@ -5042,8 +5042,8 @@ font-family: Mali !important;
     font-size:80%;
     font-weight: bold;
 }
-.boxline .time span:first-child{top:-16px}
-.boxline .time span:last-child{top:94%}
+.boxline .time span:first-child{top:-18px}
+.boxline .time span:last-child{top:99%}
 
 
 .boxline .arrow{
