@@ -4926,8 +4926,6 @@ font-family: Mali !important;
     font-family: arial
 }
 
-
-
 .boxline{
     margin:0 10%;
     height: 630px;
@@ -4961,7 +4959,7 @@ font-family: Mali !important;
     margin: 20px 60px 60px;
     position: relative;
     padding: 10px 20px;
-    background:rgb(220 65 101 / 75%);
+    background: rgb(165 0 0 / 66%);;
     color:#fff;
     border-radius: 10px;
     line-height: 20px;
@@ -4986,107 +4984,8 @@ font-family: Mali !important;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background:#dc4165bf;
+    background:#ff6d6d;
     border:2px solid #dc4165bf;
-    position: absolute;
-    left:-5px
-}
-
-.boxline ul li > span:before{top:-10px}
-.boxline ul li > span:after{top:95%}
-
-.boxline .title{
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 5px
-}
-
-.boxline .info:first-letter{text-transform: capitalize;line-height: 1.7}
-
-.boxline .name{
-    margin-top: 10px;
-    text-transform: capitalize;
-    font-style: italic;
-    text-align: right;
-    margin-right: 20px
-}
-
-
-.boxline .time span{
-    position: absolute;
-    left: -100px;
-    color:#dc4165bf;
-    font-size:80%;
-    font-weight: bold;
-}
-.boxline .time span:first-child{top:-16px}
-.boxline .time span:last-child{top:94%}
-
-
-.arrow{
-    position: absolute;
-    top: 105%;
-
-.boxline{
-    margin:0 10%;
-    height: 630px;
-    overflow: hidden;
-    padding: 10px 0 40px 60px
-}
-
-.boxline ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    transition: all 0.5s linear;
-    top:0
-}
-
-.boxline ul:last-of-type{top:80px}
-
-.boxline ul:before{
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
-    border:1px dashed #dc4165bf;
-    position: absolute;
-    top:0;
-    left:30px
-}
-
-.boxline ul li{
-    margin: 20px 60px 60px;
-    position: relative;
-    padding: 10px 20px;
-    background:rgb(165 0 0 / 66%);
-    color:#dc4165bf;
-    border-radius: 10px;
-    line-height: 20px;
-    width: 35%
-}
-
-
-.boxline ul li > span{
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
-    border:1px solid #fff;
-    position: absolute;
-    top:0;
-    left:-30px
-}
-
-.boxline ul li > span:before,.boxline ul li > span:after{
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #dc4165bf;
-    border:2px solid #ec735e;
     position: absolute;
     left:-7.5px
 }
@@ -5186,4 +5085,3 @@ svg{
         top:106%
     }
 }
-
