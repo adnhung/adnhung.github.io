@@ -5074,6 +5074,7 @@ font-family: Mali !important;
     left: -20px;
     transform: rotateX(180deg);
     cursor: pointer;
+    z-index: 2;
 }
 
 svg{
