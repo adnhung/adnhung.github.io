@@ -27,7 +27,7 @@
   '/static/modules/revolution-slider/css/settings.css',
   '/static/modules/revolution-slider/css/layers.css',
   '/static/modules/revolution-slider/css/navigation.css',
-  'awp_default.css',
+  '/static/modules/revolution-slider/css/awp_default.css',
   '/static/css/jquery.mCustomScrollbar.css',
   '/static/css/bootstrap.min.css',
   '/static/css/font-awesome.min.css',
