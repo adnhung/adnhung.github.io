@@ -4922,13 +4922,22 @@ canvas#world {
 #textblockA p{
 font-family: Mali !important;
 }
-
+.bodyline:before {
+    opacity: 0.6;
+    z-index: 1;
+    background-image: url('./static/images/tab/bg_love-img.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
 
 .bodyline{
     margin: 0;
     padding: 0;
     background-color:#97979700;
-    font-family: arial
+    font-family: arial;
+    z-index: 2;
+    opacity: 1;
 }
 
 .boxline{
@@ -5096,16 +5105,4 @@ svg{
 /*--------------------------------------------------------------
 #0.9  story-section
 --------------------------------------------------------------*/
-.bodyline:before {
-    opacity: 0.6;
-    z-index: 1;
-    background-image: url('./static/images/tab/bg_love-img.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-}
-.bodyline{
-z-index: 2;
-opacity: 1;
-}
 
