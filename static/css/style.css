@@ -5003,7 +5003,7 @@ font-family: Mali !important;
     z-index: 2;
 }
 .section-title-three h2{
-    color: #9b0a9b;
+    color: #9b0a9b !important;
     margin-top: 15px;
 }
 
