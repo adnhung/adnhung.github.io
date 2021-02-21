@@ -43,7 +43,7 @@ importScripts('static/js/cache.js');
   '/static/css/style.css',
   '/index.html'
 ];
-var curentVersion='adnhung_v1';
+var curentVersion='adnhung_v32';
 caches.keys().then(async function (cachesNames) {
 
 for (i = 0; i < cachesNames.length; i++) {
