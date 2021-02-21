@@ -69,7 +69,7 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('fetch', (event) => {
 	
-	if(event.request.url.match(/google\.com|analytics|yandex|api\.github\.com|github\.io\/database\/|github\.io\/worker|adnhung\.gq/)){
+	if(event.request.url.match(/google\.com|analytics|yandex|api\.github\.com|github\.io\/database\/|github\.io\/worker)){
 			 return;
 	}else{
 	
