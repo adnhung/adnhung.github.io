@@ -5058,7 +5058,8 @@ font-family: Mali !important;
   left: -20px;
   cursor: pointer;
   height:20px;
-  width:20px
+  width:20px;
+  z-index: 2;
 }
 
 .boxline arrow:hover{
