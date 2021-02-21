@@ -3282,6 +3282,10 @@ section {
 .story-section {
   background: url(./static/images/tab/bg-img.jpg) center center/auto;
 }
+.feed-section {
+  background: url(./static/images/tab/bg_love-img.jpg) center center/auto;
+}
+
 .tab-pad {
   padding: 148px 62px;
 }
