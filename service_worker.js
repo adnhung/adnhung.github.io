@@ -49,10 +49,6 @@ caches.keys().then(async function (cachesNames) {
 for (i = 0; i < cachesNames.length; i++) {
         if(cachesNames[i] !==curentVersion){
             caches.delete(cachesNames[i])
-	const dbs = await window.indexedDB.databases()
-	dbs.forEach(db => { window.indexedDB.deleteDatabase(db.name) });
-	navigator.serviceWorker.getRegistrations().then(function(registrations) { for(let registration of registrations) { registration.unregister() } })
-        }
 }
 
 });
