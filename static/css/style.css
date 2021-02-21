@@ -3282,10 +3282,14 @@ section {
 .story-section {
   background: url(./static/images/tab/bg-img.jpg) center center/auto;
 }
-.feed-section {
-  background: url(./static/images/tab/bg_love-img.jpg) center center/auto;
-}
 
+.feed-section:before {
+    opacity: 0.6;
+    background-image: url('./static/images/tab/bg_love-img.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
 .tab-pad {
   padding: 148px 62px;
 }
