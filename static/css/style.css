@@ -5032,7 +5032,7 @@ font-family: Mali !important;
 .boxline .time span:last-child{top:94%}
 
 
-.arrow{
+.boxline .arrow{
     position: absolute;
     top: 105%;
     left: 22%;
@@ -5041,7 +5041,7 @@ font-family: Mali !important;
   width:20px
 }
 
-.arrow:hover{
+.boxline arrow:hover{
     -webkit-animation: arrow 1s linear infinite;
        -moz-animation: arrow 1s linear infinite;
          -o-animation: arrow 1s linear infinite;
