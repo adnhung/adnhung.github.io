@@ -4959,7 +4959,7 @@ font-family: Mali !important;
     margin: 20px 60px 60px;
     position: relative;
     padding: 10px 20px;
-    background: rgb(165 0 0 / 66%);;
+    background: #dc4165bf;
     color:#fff;
     border-radius: 10px;
     line-height: 20px;
@@ -5013,7 +5013,7 @@ font-family: Mali !important;
 .boxline .time span{
     position: absolute;
     left: -100px;
-    color:#fff;
+    color:#dc4165bf;
     font-size:80%;
     font-weight: bold;
 }
