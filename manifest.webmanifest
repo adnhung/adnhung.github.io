@@ -13,17 +13,17 @@
       "type": "image/ico"
     },
     {
-      "src": "/ad-256x256.png",
+      "src": "/static/images/ad-256x256.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/ad-128x128.png",
+      "src": "/static/images/ad-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/static/image/ad-64x64.png",
+      "src": "/static/images/ad-64x64.png",
       "sizes": "64x64",
       "type": "image/png"
     },
