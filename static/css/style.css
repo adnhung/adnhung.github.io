@@ -3282,18 +3282,10 @@ section {
 .story-section {
   background: url(./static/images/tab/bg-img.jpg) center center/auto;
 }
-.bodyline:before {
-    opacity: 0.6;
-    z-index: 1;
-    background-image: url('./static/images/tab/bg_love-img.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-}
-.bodyline{
-z-index: 2;
-opacity: 1;
-}
+/*--------------------------------------------------------------
+#0.9  story-section
+--------------------------------------------------------------*/
+
 
 .tab-pad {
   padding: 148px 62px;
@@ -5100,3 +5092,20 @@ svg{
         top:106%
     }
 }
+
+/*--------------------------------------------------------------
+#0.9  story-section
+--------------------------------------------------------------*/
+.bodyline:before {
+    opacity: 0.6;
+    z-index: 1;
+    background-image: url('./static/images/tab/bg_love-img.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.bodyline{
+z-index: 2;
+opacity: 1;
+}
+
