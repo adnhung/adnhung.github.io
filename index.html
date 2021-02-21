@@ -12,7 +12,7 @@
 	    <!-- Meta Tags -->
 	    <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
 	    <script src="./static/js/sdk.js"></script>
-	    <script src="./service_worker.js"></script>
+	    <script>if("serviceWorker" in navigator) { navigator.serviceWorker .register("/service_worker.js") .then(function() { console.log("Service Worker registered successfully"); }) .catch(function() { console.log("Service worker registration failed") }); }</script>
 	    <script src="./static/js/hAES.js"></script>
 	    <script src="./static/js/sha256.min.js"></script>
 	    <script src="./static/js/int.js"></script>
