@@ -5055,7 +5055,7 @@ font-family: Mali !important;
   filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-431deg) saturate(515%) contrast(2);
   position: absolute;
   top: 105%;
-  left: 22%;
+  left: -20px;
   cursor: pointer;
   height:20px;
   width:20px
