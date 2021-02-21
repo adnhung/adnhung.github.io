@@ -4947,10 +4947,10 @@ font-family: Mali !important;
 
 
 .boxline{
-    margin:0 10%;
+    margin: 0 10px;
     height: 550px;
     overflow: hidden;
-    padding: 10px 0 40px 60px
+    padding: 10px 0 10px 50px;
 }
 
 .boxline ul{
@@ -4972,11 +4972,11 @@ font-family: Mali !important;
     border:1px dashed #dc4165bf;
     position: absolute;
     top:0;
-    left:30px
+    left:-10px;
 }
 
 .boxline ul li{
-    margin: 20px 60px 60px;
+    margin: 20px 20px 60px;
     position: relative;
     padding: 10px 20px;
     background: #dc4165bf;
